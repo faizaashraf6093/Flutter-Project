@@ -1,0 +1,18 @@
+import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+// import 'package:contacts_navigation/contact_list.dart';
+
+
+/// Switch Theme Function
+void switchTheme(BuildContext context) {
+  // Switch Theme Mode using Getx
+  Get.changeThemeMode(
+    Get.isDarkMode ? ThemeMode.light : ThemeMode.dark,
+  );
+
+}
+
+// Calling Function
+ call() {
+  
+}
